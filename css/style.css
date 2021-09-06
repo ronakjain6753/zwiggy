@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+h3{
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+}
+.navbar{
+  background-color: #342628;
+}
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+}
+/* container{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+} */
+/* .search-box{
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.search{
+  width: 100%;
+  border: 2px solid #f97272;
+  border-right: none;
+  padding: 5px;
+  height: 20px
+  outline: none;;
+}
+search-btn{
+  width: 40px;
+  height: 36px;
+  border: 1px solid #f97272;
+} */
+/* .search{
+  background-color: #f97272;
+  height: 50px;
+  width: 140px;
+  padding: 0px;
+  margin: 0px;
+  border-width: 2px;
+  border-color: #f97272;
+  text-align: center;
+} */
+.input-wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 1rem;
+}
+input{
+  margin: 0 0.5rem 0 0.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  position: relative;
+  height: 100%;
+}
+.search-btn{
+  margin: 0 0 0 0.5rem;
+  background-color: #fff;
+}
+
+.title-image{
+  background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.6)), url(../images/271687.jpg);
+  padding:200px 350px;
+  /* margin: 0px; */
+  /* opacity: 0.8; */
+  /* position: relative; */
+  background-size: cover;
+  background-position: center center;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  height: auto;
+}
+/* .title{
+  text-align: center;
+  font-size: 2.8rem;
+  color: #fff;
+  line-height: 2;
+} */
+.header{
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  /* text-align: center; */
+  /* font-size: 30px; */
+  /* font-size: 3.5vw; */
+}
+/* .searching{
+  text-align: center;
+  width: 600px;
+  height: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f97272;
+  right: 10px;
+  /* height: 100p*/
+
+
+#features{
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align: center;
+}
+
+.icon{
+  color: #6F4849;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #31383F;
+}
+#tesimonials{
+  background-color: #6F4849;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.card{
+  margin-bottom: 15px;
+}
+.card-image{
+  /* width: 50%;
+  border-radius: 100%;
+  margin: 20px; */
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+/* cta */
+#cta{
+  font-family: 'Montserrat', sans-serif;
+}
+.cta-image{
+  /* background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.6)), url(../images/271686.jpg); */
+background-image: url(../images/271686.jpg);
+  padding:7% 15%;
+  /* margin: 0px; */
+  /* opacity: 0.8; */
+  /* position: relative; */
+  background-size: cover;
+  background-position: center center;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  height: auto;
+}
+
+#footer{
+  padding: 7% 15%;
+  background-color: #6F4849;
+}
+
+.footer-class{
+  color: #fff;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  color: #fff;
+}
+@media (max-width:1090px) {
+  .input-wrapper{
+    width: 25rem;
+    height: 3.5rem;
+    text-align: center;
+    position: absolute;
+    left: 200px;
+  }
+
+@media (max-width:700px) {
+  .input-wrapper{
+    width: 25rem;
+    height: 3.5rem;
+    text-align: center;
+    position: absolute;
+    left: 100px;
+  }
+  /* .header{
+    text-align: center;
+    position: absolute;
+    left: 50px;
+  } */
+}
+@media (max-width:700px) {
+  .input-wrapper{
+    width: 20rem;
+    height: 3.5rem;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+  }
+  .header{
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    right: 170px;
+  }
+}
